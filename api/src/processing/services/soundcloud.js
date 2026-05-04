@@ -135,7 +135,15 @@ export default async function(obj) {
                      .then(async r => new URL((await r.json()).url))
                      .catch(() => {});
 
-    if (!file) return { error: "fetch.empty" };
+    if (!file) {
+        const hasAnyDRMTranscodings = json.media.transcodings
+            .some(transcoding => transcoding?.format?.protocol?.endsWith("encrypted-hls"));
+        if (hasAnyDRMTranscodings) {
+            return { error: "soundcloud.maybe_drm" };
+        }
+        
+        return { error: "fetch.empty" };
+    }
 
     const artist = json.user?.username?.trim();
     const fileMetadata = {
