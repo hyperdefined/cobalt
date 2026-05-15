@@ -51,8 +51,15 @@ export class OPFSStorage extends AbstractStorage {
             try {
                 const root = await navigator.storage.getDirectory();
                 const handle = await root.getFileHandle(tempFile, { create: true });
-                const syncAccess = await handle.createSyncAccessHandle();
-                syncAccess.close();
+                if (typeof WorkerGlobalScope !== 'undefined') {
+                    // createSyncAccessHandle is only available in workers
+                    const syncAccess = await handle.createSyncAccessHandle();
+                    syncAccess.close();
+                }
+
+                // TODO: figure out a more reliable way
+                // of detecting if `createSyncAccessHandle` is fine
+                // without spinning up a web worker
             } catch {
                 ok = false;
             }
