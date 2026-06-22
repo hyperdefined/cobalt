@@ -417,8 +417,8 @@ export default function instagram(obj) {
 
     async function getPost(id, alwaysProxy) {
         const hasData = (data) => data
-                                    && data.gql_data !== null
-                                    && data?.gql_data?.xdt_shortcode_media !== null;
+                                    && data.gql_data != null
+                                    && (data?.gql_data?.xdt_shortcode_media != null || data?.gql_data?.shortcode_media != null);
         let data, result;
         try {
             const cookie = getCookie('instagram');
