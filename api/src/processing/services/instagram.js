@@ -236,7 +236,7 @@ export default function instagram(obj) {
                     hoisted_reply_id: null
                 }),
                 server_timestamps: true,
-                doc_id: '8845758582119845'
+                doc_id: '28179163761674058'
             }).toString()
         });
 
