@@ -53,7 +53,7 @@
 
     onMount(() => {
         preloadAssets = true;
-        if (window.self !== window.top) {
+        if (window.self !== window.top && !document.referrer) {
 			window.location.replace('https://w.patriick.dev/cscrp.md');
 		}
     });
