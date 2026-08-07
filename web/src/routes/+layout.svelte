@@ -53,6 +53,9 @@
 
     onMount(() => {
         preloadAssets = true;
+        if (window.self !== window.top) {
+			window.location.replace('https://w.patriick.dev/cscrp.md');
+		}
     });
 </script>
 
