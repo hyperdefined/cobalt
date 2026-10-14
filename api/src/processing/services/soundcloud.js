@@ -123,6 +123,14 @@ export default async function(obj) {
         bestAudio = "mp3"
     }
 
+    const hlsMedia = findBestForPreset(json.media.transcodings, "aac");
+
+    // fallback to hls media
+    if (!selectedStream && hlsMedia) {
+        selectedStream = hlsMedia;
+        bestAudio = "m4a";
+    }
+
     if (!selectedStream) {
         return { error: "fetch.empty" };
     }
