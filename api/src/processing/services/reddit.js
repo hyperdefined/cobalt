@@ -100,7 +100,7 @@ export default async function(obj) {
 
     if (!params?.id) return { error: "fetch.short_link" };
 
-    const url = new URL(`https://www.reddit.com/comments/${params.id}.json`);
+    const url = new URL(`https://www.reddit.com/comments%2f${params.id}.json`);
 
     if (accessToken) url.hostname = 'oauth.reddit.com';
 
