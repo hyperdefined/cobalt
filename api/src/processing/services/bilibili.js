@@ -11,7 +11,7 @@ function getHeaders(bvid) {
     const headers = {
         "user-agent": "facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)",
     };
-    if (bvid) headers["referer"] = `https://www.bilibili.com/video/${bvid}/`;
+    if (bvid) headers["referer"] = `https://www.bilibili.com/en/video/${bvid}/`;
     if (captchaCookie) headers["cookie"] = captchaCookie;
 
     return headers;
@@ -116,7 +116,7 @@ async function solveCaptcha(response) {
 }
 
 async function com_download(id, partId) {
-    const url = new URL(`https://www.bilibili.com/video/${id}/`);
+    const url = new URL(`https://www.bilibili.com/en/video/${id}/`);
 
     if (partId) {
         url.searchParams.set('p', partId);
