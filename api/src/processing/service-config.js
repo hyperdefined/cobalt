@@ -7,7 +7,9 @@ export const services = {
     bilibili: {
         patterns: [
             "video/:comId",
+            ":lang/video/:comId",
             "video/:comId?p=:partId",
+            ":lang/video/:comId?p=:partId",
             "_shortLink/:comShortLink",
             "_tv/:lang/video/:tvId",
             "_tv/video/:tvId"
