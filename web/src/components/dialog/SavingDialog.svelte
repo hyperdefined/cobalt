@@ -20,9 +20,9 @@
     import SavingTutorial from "$components/dialog/SavingTutorial.svelte";
     import VerticalActionButton from "$components/buttons/VerticalActionButton.svelte";
 
-    import IconShare2 from "@tabler/icons-svelte/IconShare2.svelte";
-    import IconDownload from "@tabler/icons-svelte/IconDownload.svelte";
-    import IconFileDownload from "@tabler/icons-svelte/IconFileDownload.svelte";
+    import { IconShare2 } from "@tabler/icons-svelte";
+    import { IconDownload } from "@tabler/icons-svelte";
+    import { IconFileDownload } from "@tabler/icons-svelte";
 
     import CopyIcon from "$components/misc/CopyIcon.svelte";
 

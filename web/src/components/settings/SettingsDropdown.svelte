@@ -9,7 +9,7 @@
     import type { CobaltSettings } from "$lib/types/settings";
 
     import { hapticConfirm, hapticSwitch } from "$lib/haptics";
-    import IconSelector from "@tabler/icons-svelte/IconSelector.svelte";
+    import { IconSelector } from "@tabler/icons-svelte";
 
     export let title: string;
     export let description: string = "";

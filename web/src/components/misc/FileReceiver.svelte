@@ -2,8 +2,8 @@
     import { t } from "$lib/i18n/translations";
 
     import Meowbalt from "$components/misc/Meowbalt.svelte";
-    import IconFileImport from "@tabler/icons-svelte/IconFileImport.svelte";
-    import IconUpload from "@tabler/icons-svelte/IconUpload.svelte";
+    import { IconFileImport } from "@tabler/icons-svelte";
+    import { IconUpload } from "@tabler/icons-svelte";
 
     type Props = {
         files: FileList | undefined;

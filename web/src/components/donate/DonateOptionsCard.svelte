@@ -8,23 +8,23 @@
     import DonateCardContainer from "$components/donate/DonateCardContainer.svelte";
     import DonationOption from "$components/donate/DonationOption.svelte";
 
-    import IconCoin from "@tabler/icons-svelte/IconCoin.svelte";
-    import IconCalendarRepeat from "@tabler/icons-svelte/IconCalendarRepeat.svelte";
-    import IconCup from "@tabler/icons-svelte/IconCup.svelte";
-    import IconPizza from "@tabler/icons-svelte/IconPizza.svelte";
-    import IconToolsKitchen2 from "@tabler/icons-svelte/IconToolsKitchen2.svelte";
-    import IconPaperBag from "@tabler/icons-svelte/IconPaperBag.svelte";
-    import IconSoup from "@tabler/icons-svelte/IconSoup.svelte";
-    import IconFridge from "@tabler/icons-svelte/IconFridge.svelte";
-    import IconArmchair from "@tabler/icons-svelte/IconArmchair.svelte";
-    import IconDeviceLaptop from "@tabler/icons-svelte/IconDeviceLaptop.svelte";
-    import IconApple from "@tabler/icons-svelte/IconApple.svelte";
-    import IconPhoto from "@tabler/icons-svelte/IconPhoto.svelte";
-    import IconWorldWww from "@tabler/icons-svelte/IconWorldWww.svelte";
-    import IconBath from "@tabler/icons-svelte/IconBath.svelte";
+    import { IconCoin } from "@tabler/icons-svelte";
+    import { IconCalendarRepeat } from "@tabler/icons-svelte";
+    import { IconCup } from "@tabler/icons-svelte";
+    import { IconPizza } from "@tabler/icons-svelte";
+    import { IconToolsKitchen2 } from "@tabler/icons-svelte";
+    import { IconPaperBag } from "@tabler/icons-svelte";
+    import { IconSoup } from "@tabler/icons-svelte";
+    import { IconFridge } from "@tabler/icons-svelte";
+    import { IconArmchair } from "@tabler/icons-svelte";
+    import { IconDeviceLaptop } from "@tabler/icons-svelte";
+    import { IconApple } from "@tabler/icons-svelte";
+    import { IconPhoto } from "@tabler/icons-svelte";
+    import { IconWorldWww } from "@tabler/icons-svelte";
+    import { IconBath } from "@tabler/icons-svelte";
 
-    import IconArrowLeft from "@tabler/icons-svelte/IconArrowLeft.svelte";
-    import IconArrowRight from "@tabler/icons-svelte/IconArrowRight.svelte";
+    import { IconArrowLeft } from "@tabler/icons-svelte";
+    import { IconArrowRight } from "@tabler/icons-svelte";
 
     let donateList: HTMLElement;
 

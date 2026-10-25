@@ -3,7 +3,7 @@
     import { createDialog } from "$lib/state/dialogs";
     import { resetSettings } from "$lib/state/settings";
 
-    import IconRestore from "@tabler/icons-svelte/IconRestore.svelte";
+    import { IconRestore } from "@tabler/icons-svelte";
     import DataSettingsButton from "$components/settings/DataSettingsButton.svelte";
 
     const resetDialog = () => {

@@ -1,7 +1,7 @@
 <script lang="ts">
-    import IconLink from "@tabler/icons-svelte/IconLink.svelte";
-    import IconCopy from "@tabler/icons-svelte/IconCopy.svelte";
-    import IconCheck from "@tabler/icons-svelte/IconCheck.svelte";
+    import { IconLink } from "@tabler/icons-svelte";
+    import { IconCopy } from "@tabler/icons-svelte";
+    import { IconCheck } from "@tabler/icons-svelte";
 
     export let check = false;
     export let regularIcon = false;

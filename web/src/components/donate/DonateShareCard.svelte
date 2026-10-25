@@ -9,10 +9,10 @@
 
     import DonateCardContainer from "$components/donate/DonateCardContainer.svelte";
 
-    import IconShare2 from "@tabler/icons-svelte/IconShare2.svelte";
-    import IconBrandGithub from "@tabler/icons-svelte/IconBrandGithub.svelte";
-    import IconBrandTwitter from "@tabler/icons-svelte/IconBrandTwitter.svelte";
-    import IconMoodSmileBeam from "@tabler/icons-svelte/IconMoodSmileBeam.svelte";
+    import { IconShare2 } from "@tabler/icons-svelte";
+    import { IconBrandGithub } from "@tabler/icons-svelte";
+    import { IconBrandTwitter } from "@tabler/icons-svelte";
+    import { IconMoodSmileBeam } from "@tabler/icons-svelte";
 
     import CobaltQr from "$components/icons/CobaltQR.svelte";
     import CopyIcon from "$components/misc/CopyIcon.svelte";

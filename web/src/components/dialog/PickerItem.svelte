@@ -6,9 +6,9 @@
 
     import Skeleton from "$components/misc/Skeleton.svelte";
 
-    import IconMovie from "@tabler/icons-svelte/IconMovie.svelte";
-    import IconPhoto from "@tabler/icons-svelte/IconPhoto.svelte";
-    import IconGif from "@tabler/icons-svelte/IconGif.svelte";
+    import { IconMovie } from "@tabler/icons-svelte";
+    import { IconPhoto } from "@tabler/icons-svelte";
+    import { IconGif } from "@tabler/icons-svelte";
 
     type Props = {
         item: DialogPickerItem;

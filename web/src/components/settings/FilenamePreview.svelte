@@ -2,8 +2,8 @@
     import settings from "$lib/state/settings";
     import { t } from "$lib/i18n/translations";
 
-    import IconMovie from "@tabler/icons-svelte/IconMovie.svelte";
-    import IconMusic from "@tabler/icons-svelte/IconMusic.svelte";
+    import { IconMovie } from "@tabler/icons-svelte";
+    import { IconMusic } from "@tabler/icons-svelte";
 
     let videoFilePreview: string;
     let audioFilePreview: string;

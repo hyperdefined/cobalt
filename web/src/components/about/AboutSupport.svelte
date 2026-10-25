@@ -2,13 +2,13 @@
     import { t } from "$lib/i18n/translations";
     import { openURL } from "$lib/download";
 
-    import IconExternalLink from "@tabler/icons-svelte/IconExternalLink.svelte";
+    import { IconExternalLink } from "@tabler/icons-svelte";
 
-    import IconBrandGithub from "@tabler/icons-svelte/IconBrandGithub.svelte";
-    import IconBrandTwitter from "@tabler/icons-svelte/IconBrandTwitter.svelte";
-    import IconBrandDiscord from "@tabler/icons-svelte/IconBrandDiscord.svelte";
-    import IconBrandTelegram from "@tabler/icons-svelte/IconBrandTelegram.svelte";
-    import IconBrandBluesky from "@tabler/icons-svelte/IconBrandBluesky.svelte";
+    import { IconBrandGithub } from "@tabler/icons-svelte";
+    import { IconBrandTwitter } from "@tabler/icons-svelte";
+    import { IconBrandDiscord } from "@tabler/icons-svelte";
+    import { IconBrandTelegram } from "@tabler/icons-svelte";
+    import { IconBrandBluesky } from "@tabler/icons-svelte";
 
     const platformIcons = {
         github: {

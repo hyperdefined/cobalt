@@ -9,19 +9,19 @@
     import PageNavTab from "$components/subnav/PageNavTab.svelte";
     import PageNavSection from "$components/subnav/PageNavSection.svelte";
 
-    import IconLock from "@tabler/icons-svelte/IconLock.svelte";
-    import IconSunHigh from "@tabler/icons-svelte/IconSunHigh.svelte";
-    import IconAccessible from "@tabler/icons-svelte/IconAccessible.svelte";
+    import { IconLock } from "@tabler/icons-svelte";
+    import { IconSunHigh } from "@tabler/icons-svelte";
+    import { IconAccessible } from "@tabler/icons-svelte";
 
-    import IconMovie from "@tabler/icons-svelte/IconMovie.svelte";
-    import IconMusic from "@tabler/icons-svelte/IconMusic.svelte";
-    import IconFileDownload from "@tabler/icons-svelte/IconFileDownload.svelte";
+    import { IconMovie } from "@tabler/icons-svelte";
+    import { IconMusic } from "@tabler/icons-svelte";
+    import { IconFileDownload } from "@tabler/icons-svelte";
 
-    import IconCpu from "@tabler/icons-svelte/IconCpu.svelte";
-    import IconWorld from "@tabler/icons-svelte/IconWorld.svelte";
+    import { IconCpu } from "@tabler/icons-svelte";
+    import { IconWorld } from "@tabler/icons-svelte";
 
-    import IconBug from "@tabler/icons-svelte/IconBug.svelte";
-    import IconAdjustmentsStar from "@tabler/icons-svelte/IconAdjustmentsStar.svelte";
+    import { IconBug } from "@tabler/icons-svelte";
+    import { IconAdjustmentsStar } from "@tabler/icons-svelte";
 
     $: versionText = $version
         ? `v${$version.version}-${$version.commit.slice(0, 8)}`

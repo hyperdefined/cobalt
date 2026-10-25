@@ -14,17 +14,17 @@
 
     import ProgressBar from "$components/queue/ProgressBar.svelte";
 
-    import IconX from "@tabler/icons-svelte/IconX.svelte";
-    import IconCheck from "@tabler/icons-svelte/IconCheck.svelte";
-    import IconReload from "@tabler/icons-svelte/IconReload.svelte";
-    import IconLoader2 from "@tabler/icons-svelte/IconLoader2.svelte";
-    import IconDownload from "@tabler/icons-svelte/IconDownload.svelte";
-    import IconExclamationCircle from "@tabler/icons-svelte/IconExclamationCircle.svelte";
+    import { IconX } from "@tabler/icons-svelte";
+    import { IconCheck } from "@tabler/icons-svelte";
+    import { IconReload } from "@tabler/icons-svelte";
+    import { IconLoader2 } from "@tabler/icons-svelte";
+    import { IconDownload } from "@tabler/icons-svelte";
+    import { IconExclamationCircle } from "@tabler/icons-svelte";
 
-    import IconFile from "@tabler/icons-svelte/IconFile.svelte";
-    import IconMovie from "@tabler/icons-svelte/IconMovie.svelte";
-    import IconMusic from "@tabler/icons-svelte/IconMusic.svelte";
-    import IconPhoto from "@tabler/icons-svelte/IconPhoto.svelte";
+    import { IconFile } from "@tabler/icons-svelte";
+    import { IconMovie } from "@tabler/icons-svelte";
+    import { IconMusic } from "@tabler/icons-svelte";
+    import { IconPhoto } from "@tabler/icons-svelte";
 
     const itemIcons = {
         file: IconFile,

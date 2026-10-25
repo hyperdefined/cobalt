@@ -6,9 +6,9 @@
     import FileReceiver from "$components/misc/FileReceiver.svelte";
     import BulletExplain from "$components/misc/BulletExplain.svelte";
 
-    import IconRepeat from "@tabler/icons-svelte/IconRepeat.svelte";
-    import IconDevices from "@tabler/icons-svelte/IconDevices.svelte";
-    import IconInfoCircle from "@tabler/icons-svelte/IconInfoCircle.svelte";
+    import { IconRepeat } from "@tabler/icons-svelte";
+    import { IconDevices } from "@tabler/icons-svelte";
+    import { IconInfoCircle } from "@tabler/icons-svelte";
 
     let draggedOver = false;
     let files: FileList | undefined;

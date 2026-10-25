@@ -11,7 +11,7 @@
     import PickerItem from "$components/dialog/PickerItem.svelte";
     import DialogButtons from "$components/dialog/DialogButtons.svelte";
 
-    import IconBoxMultiple from "@tabler/icons-svelte/IconBoxMultiple.svelte";
+    import { IconBoxMultiple } from "@tabler/icons-svelte";
 
     export let id: string;
     export let items: Optional<DialogPickerItem[]> = undefined;

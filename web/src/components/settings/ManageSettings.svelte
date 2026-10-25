@@ -8,8 +8,8 @@
     import DataSettingsButton from "$components/settings/DataSettingsButton.svelte";
     import ResetSettingsButton from "$components/settings/ResetSettingsButton.svelte";
 
-    import IconFileExport from "@tabler/icons-svelte/IconFileExport.svelte";
-    import IconFileImport from "@tabler/icons-svelte/IconFileImport.svelte";
+    import { IconFileExport } from "@tabler/icons-svelte";
+    import { IconFileImport } from "@tabler/icons-svelte";
 
     const updateSettings = (reader: FileReader) => {
         try {

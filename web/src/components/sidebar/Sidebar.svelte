@@ -7,14 +7,14 @@
     import CobaltLogo from "$components/sidebar/CobaltLogo.svelte";
     import SidebarTab from "$components/sidebar/SidebarTab.svelte";
 
-    import IconDownload from "@tabler/icons-svelte/IconDownload.svelte";
-    import IconSettings from "@tabler/icons-svelte/IconSettings.svelte";
+    import { IconDownload } from "@tabler/icons-svelte";
+    import { IconSettings } from "@tabler/icons-svelte";
 
-    import IconRepeat from "@tabler/icons-svelte/IconRepeat.svelte";
+    import { IconRepeat } from "@tabler/icons-svelte";
 
-    import IconComet from "@tabler/icons-svelte/IconComet.svelte";
-    import IconHeart from "@tabler/icons-svelte/IconHeart.svelte";
-    import IconInfoCircle from "@tabler/icons-svelte/IconInfoCircle.svelte";
+    import { IconComet } from "@tabler/icons-svelte";
+    import { IconHeart } from "@tabler/icons-svelte";
+    import { IconInfoCircle } from "@tabler/icons-svelte";
 
     let screenWidth: number;
     let settingsLink = defaultNavPage("settings");

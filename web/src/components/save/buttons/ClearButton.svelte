@@ -1,6 +1,6 @@
 <script>
     import { t } from "$lib/i18n/translations";
-    import IconX from "@tabler/icons-svelte/IconX.svelte";
+    import { IconX } from "@tabler/icons-svelte";
 
     export let click;
 </script>

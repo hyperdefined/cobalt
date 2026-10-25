@@ -1,6 +1,6 @@
 <script lang="ts">
-    import IconLink from "@tabler/icons-svelte/IconLink.svelte";
-    import IconLoader2 from "@tabler/icons-svelte/IconLoader2.svelte";
+    import { IconLink } from "@tabler/icons-svelte";
+    import { IconLoader2 } from "@tabler/icons-svelte";
 
     type Props = {
         loading: boolean;

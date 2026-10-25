@@ -1,7 +1,7 @@
 <script lang="ts">
     import { page } from "$app/stores";
 
-    import IconChevronRight from "@tabler/icons-svelte/IconChevronRight.svelte";
+    import { IconChevronRight } from "@tabler/icons-svelte";
 
     export let path: string;
     export let title: string;

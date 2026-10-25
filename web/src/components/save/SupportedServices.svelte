@@ -4,7 +4,7 @@
     import { getServerInfo } from "$lib/api/server-info";
 
     import Skeleton from "$components/misc/Skeleton.svelte";
-    import IconPlus from "@tabler/icons-svelte/IconPlus.svelte";
+    import { IconPlus } from "@tabler/icons-svelte";
     import PopoverContainer from "$components/misc/PopoverContainer.svelte";
 
     let services: string[] = [];

@@ -4,7 +4,7 @@
     import { copyURL, openURL } from "$lib/download";
 
     import CopyIcon from "$components/misc/CopyIcon.svelte";
-    import IconExternalLink from "@tabler/icons-svelte/IconExternalLink.svelte";
+    import { IconExternalLink } from "@tabler/icons-svelte";
 
     export let type: "copy" | "open";
     export let name: string;

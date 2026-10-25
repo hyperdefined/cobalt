@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import { t } from "$lib/i18n/translations";
-    import IconComet from "@tabler/icons-svelte/IconComet.svelte";
+    import { IconComet } from "@tabler/icons-svelte";
 
     let dismissed = true;
 

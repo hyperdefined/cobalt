@@ -1,6 +1,6 @@
 <script lang="ts">
     import { t } from "$lib/i18n/translations";
-    import IconArrowDown from "@tabler/icons-svelte/IconArrowDown.svelte";
+    import { IconArrowDown } from "@tabler/icons-svelte";
 
     type Props = {
         indeterminate?: boolean;

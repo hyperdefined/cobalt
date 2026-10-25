@@ -4,7 +4,7 @@
     import { clearQueue } from "$lib/state/task-manager/queue";
     import { clearFileStorage } from "$lib/storage/opfs";
 
-    import IconFileShredder from "@tabler/icons-svelte/IconFileShredder.svelte";
+    import { IconFileShredder } from "@tabler/icons-svelte";
     import DataSettingsButton from "$components/settings/DataSettingsButton.svelte";
 
     const clearDialog = () => {

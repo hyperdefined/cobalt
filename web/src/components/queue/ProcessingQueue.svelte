@@ -16,7 +16,7 @@
     import ProcessingQueueItem from "$components/queue/ProcessingQueueItem.svelte";
     import ProcessingQueueStub from "$components/queue/ProcessingQueueStub.svelte";
 
-    import IconX from "@tabler/icons-svelte/IconX.svelte";
+    import { IconX } from "@tabler/icons-svelte";
 
     const popoverAction = () => {
         $queueVisible = !$queueVisible;

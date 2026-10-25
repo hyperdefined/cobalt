@@ -12,12 +12,12 @@
     import settings, { updateSetting } from "$lib/state/settings";
     import { customInstanceWarning } from "$lib/api/safety-warning";
 
-    import IconX from "@tabler/icons-svelte/IconX.svelte";
-    import IconCheck from "@tabler/icons-svelte/IconCheck.svelte";
-    import IconArrowBack from "@tabler/icons-svelte/IconArrowBack.svelte";
+    import { IconX } from "@tabler/icons-svelte";
+    import { IconCheck } from "@tabler/icons-svelte";
+    import { IconArrowBack } from "@tabler/icons-svelte";
 
-    import IconEye from "@tabler/icons-svelte/IconEye.svelte";
-    import IconEyeOff from "@tabler/icons-svelte/IconEyeOff.svelte";
+    import { IconEye } from "@tabler/icons-svelte";
+    import { IconEyeOff } from "@tabler/icons-svelte";
 
     type SettingsInputType = "url" | "uuid";
 
