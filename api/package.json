@@ -26,7 +26,6 @@
         "@datastructures-js/priority-queue": "^6.3.5",
         "@imput/psl": "^2.0.4",
         "@imput/version-info": "workspace:^",
-        "bgutils-js": "^3.2.0",
         "content-disposition-header": "0.6.0",
         "cors": "^2.8.6",
         "dotenv": "^17.4.2",
@@ -37,7 +36,6 @@
         "hls-parser": "^0.16.1",
         "ipaddr.js": "2.5.0",
         "isolated-vm": "^6.1.2",
-        "jsdom": "^27.4.0",
         "mime": "^4.1.0",
         "nanoid": "^5.1.15",
         "set-cookie-parser": "2.7.3",
@@ -47,7 +45,9 @@
         "zod": "^4.4.3"
     },
     "optionalDependencies": {
+        "bgutils-js": "^3.2.0",
         "freebind": "^0.2.3",
+        "jsdom": "^27.4.0",
         "rate-limit-redis": "^4.3.1",
         "redis": "^4.7.1"
     }
