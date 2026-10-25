@@ -14,11 +14,11 @@ jobs:
     outputs:
       services: ${{ steps.checkServices.outputs.service_list }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 'lts/*'
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
       - id: checkServices
         run: pnpm i --frozen-lockfile && echo "service_list=$(node api/src/util/test get-services)" >> "$GITHUB_OUTPUT"
 
@@ -31,11 +31,11 @@ jobs:
         service: ${{ fromJson(needs.check-services.outputs.services) }}
     name: "test service: ${{ matrix.service }}"
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
-      - uses: pnpm/action-setup@v4
+      - uses: pnpm/action-setup@v6
       - run: pnpm i --frozen-lockfile
       - run: node api/src/util/test run-tests-for ${{ matrix.service }}
         env:
