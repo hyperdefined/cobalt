@@ -6,20 +6,13 @@
     <p>
         best way to save what you love
         <br/>
-        <a href="https://cobalt.tools">
-            cobalt.tools
+        <a href="https://cobalt.meowing.de">
+            cobalt.meowing.de
         </a>
     </p>
     <p>
         <a href="https://discord.gg/pQPt8HBUPu">
             💬 community discord server
-        </a>
-        <br/>
-        <a href="https://x.com/justusecobalt">
-            🐦 twitter
-        </a>
-        <a href="https://bsky.app/profile/cobalt.tools">
-            🦋 bluesky
         </a>
     </p>
     <br/>
@@ -36,7 +29,7 @@ this monorepo includes source code for api, frontend, and related packages:
 - [packages tree](/packages/)
 
 it also includes documentation in the [docs tree](/docs/):
-- [how to run a cobalt instance](/docs/run-an-instance.md)
+- [how to run a cobalt instance](https://docs.hyper.lol/guides/cobalt/overview/)
 - [how to protect a cobalt instance](/docs/protect-an-instance.md)
 - [cobalt api instance environment variables](/docs/api-env-variables.md)
 - [cobalt api documentation](/docs/api.md)
@@ -52,9 +45,6 @@ same content can be downloaded via dev tools of any modern web browser.
 
 ### contributing
 if you're considering contributing to cobalt, first of all, thank you! check the [contribution guidelines here](/CONTRIBUTING.md) before getting started, they'll help you do your best right away.
-
-### thank you
-cobalt is sponsored by [royalehosting.net](https://royalehosting.net/?partner=cobalt). a part of our infrastructure is hosted on their network. we really appreciate their kindness and support!
 
 ### licenses
 for relevant licensing information, see the [api](api/README.md) and [web](web/README.md) READMEs.
