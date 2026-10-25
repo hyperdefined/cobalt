@@ -32,10 +32,6 @@ const contacts = {
     telegram_ru: "https://t.me/justusecobalt_ru",
 }
 
-const partners = {
-    royalehosting: "https://royalehosting.net/?partner=cobalt",
-}
-
 const donate = {
     stripe: "https://donate.stripe.com/3cs2cc6ew1Qda4wbII",
     liberapay: "https://liberapay.com/imput/donate",
@@ -63,7 +59,5 @@ const docs = {
     apiLicense: "https://github.com/imputnet/cobalt/blob/main/api/LICENSE",
 };
 
-const officialApiURL = "https://api.cobalt.tools";
-
-export { donate, officialApiURL, contacts, partners, siriShortcuts, docs };
+export { donate, contacts, siriShortcuts, docs };
 export default variables;

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { contacts, docs, partners } from "$lib/env";
+    import { contacts, docs } from "$lib/env";
     import { t } from "$lib/i18n/translations";
 
     import SectionHeading from "$components/misc/SectionHeading.svelte";
@@ -29,16 +29,6 @@ they also helped us ship cobalt 10!
 <BetaTesters />
 
 all links are external and lead to their personal websites or social media.
-</section>
-
-<section id="partners">
-<SectionHeading
-    title={$t("about.heading.partners")}
-    sectionId="partners"
-/>
-
-a portion of cobalt's processing infrastructure
-is provided by our long-standing partner, [royalehosting.net]({partners.royalehosting})!
 </section>
 
 <section id="meowbalt">

@@ -1,6 +1,4 @@
 <script lang="ts">
-    import env, { officialApiURL } from "$lib/env";
-
     import { tick } from "svelte";
     import { page } from "$app/state";
     import { goto } from "$app/navigation";
@@ -147,11 +145,9 @@
     if you want to remove the community instance label,
     refer to the license first https://github.com/imputnet/cobalt/tree/main/web#license
 -->
-{#if env.DEFAULT_API !== officialApiURL}
-    <div id="instance-label">
-        {$t("save.label.community_instance")}
-    </div>
-{/if}
+<div id="instance-label">
+    {$t("save.label.community_instance")}
+</div>
 
 <div id="omnibox">
     {#if $turnstileEnabled}
