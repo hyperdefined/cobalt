@@ -27,7 +27,7 @@ const variables = {
 const contacts = {
     discord: "https://discord.gg/pQPt8HBUPu",
     twitter: "https://x.com/justusecobalt",
-    github: "https://github.com/imputnet/cobalt",
+    github: "https://github.com/zImPatrick/cobalt",
     bluesky: "https://bsky.app/profile/cobalt.tools",
     telegram_ru: "https://t.me/justusecobalt_ru",
 }
