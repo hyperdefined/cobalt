@@ -60,7 +60,7 @@ cobalt tunnels function like an anonymous proxy.
 if your device supports local processing,
 then encrypted tunnel info includes way less info, because it's returned to client instead.
 
-see the [related source code on github](https://github.com/imputnet/cobalt/tree/main/api/src/stream)
+see the [related source code on github](https://github.com/zImPatrick/cobalt/tree/main/api/src/stream)
 to learn more about how it works.
 </section>
 

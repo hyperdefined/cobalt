@@ -36,11 +36,11 @@ if you plan on adding a feature or support for a service, but are unsure whether
 when contributing code to cobalt, there are a few guidelines in place to ensure that the code history is readable and comprehensible.
 
 ### clean commit messages
-internally, we use a format similar to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) - the first part signifies which part of the code you are changing (the *scope*), and the second part explains the change. for inspiration on how to write appropriate commit titles, you can take a look at the [commit history](https://github.com/imputnet/cobalt/commits/).
+internally, we use a format similar to [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) - the first part signifies which part of the code you are changing (the *scope*), and the second part explains the change. for inspiration on how to write appropriate commit titles, you can take a look at the [commit history](https://github.com/zImPatrick/cobalt/commits/).
 
 the scope is not strictly defined, you can write whatever you find most fitting for the particular change. suppose you are changing a small part of a more significant part of the codebase. in that case, you can specify both the larger and smaller scopes in the commit message for clarity (e.g., if you were changing something in internal streams, the commit could be something like `api/stream: fix object not being handled properly`).
 
-if you think a change deserves further explanation, we encourage you to write a short explanation in the commit message ([example](https://github.com/imputnet/cobalt/commit/31be60484de8eaf63bba8a4f508e16438aa7ba6e)), which will save both you and us time having to enquire about the change, and you explaining the reason behind it.
+if you think a change deserves further explanation, we encourage you to write a short explanation in the commit message ([example](https://github.com/zImPatrick/cobalt/commit/31be60484de8eaf63bba8a4f508e16438aa7ba6e)), which will save both you and us time having to enquire about the change, and you explaining the reason behind it.
 
 if your contribution has uninformative commit titles, you may be asked to interactively rebase your branch and amend each commit to include a meaningful title.
 

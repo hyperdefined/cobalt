@@ -17,10 +17,10 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/imputnet/cobalt.git"
+        "url": "git+https://github.com/zImPatrick/cobalt.git"
     },
     "bugs": {
-        "url": "https://github.com/imputnet/cobalt/issues"
+        "url": "https://github.com/zImPatrick/cobalt/issues"
     },
     "homepage": "https://cobalt.tools/",
     "devDependencies": {
