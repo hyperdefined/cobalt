@@ -1,4 +1,10 @@
 packages:
-    - "api"
-    - "web"
-    - "packages/*"
+  - "api"
+  - "web"
+  - "packages/*"
+allowBuilds:
+  esbuild: true
+  ffmpeg-static: true
+  isolated-vm: true
+  svelte-preprocess: true
+  syscall-napi: true

@@ -1,6 +1,6 @@
 {
     "name": "cobalt",
-    "packageManager": "pnpm@9.6.0",
+    "packageManager": "pnpm@11.28.8",
     "engines": {
         "pnpm": ">=9"
     }
